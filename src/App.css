@@ -1,0 +1,41 @@
+/* global.css */
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #4b79a1, #1e3c72);
+  padding: 1rem 2rem;
+  color: white !important; /* Couleur du texte */
+  font-size: 1.2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Changement de couleur au survol */
+.navbar:hover {
+  background: linear-gradient(90deg, #1e3c72, #4b79a1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.navbar .nav-link {
+  color: white !important; /* Forcer la couleur des liens */
+}
+
+.navbar .nav-link:hover {
+  color: #ffdd57 !important; /* Couleur des liens au survol */
+}

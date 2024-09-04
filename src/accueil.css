@@ -1,0 +1,51 @@
+/* global.css */
+
+/* Composant Accueil */
+.accueil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh; /* Hauteur de la fenêtre visible */
+    width: 100vw;
+    background-image: url('./img2.png'); /* URL de l'image */
+    background-size: contain; /* Redimensionne l'image pour couvrir entièrement l'élément */
+    background-position: center; /* Centre l'image dans l'élément */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+    background-color: rgb(243,250,250);
+    padding:5rem 2rem; /* Espace autour du texte */
+    color: #312929; /* Couleur du texte */
+    position: relative; /* Positionnement relatif pour positionner le texte */
+  }
+  .accueil h4 {
+    font-size: 2rem; /* Taille du texte */
+    font-weight: 600; /* Poids de la police */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.269); /* Ombre pour améliorer la lisibilité */
+    max-width: 500px; /* Largeur maximale du texte */
+    line-height: 1.4; /* Hauteur de ligne pour aérer le texte */
+    margin: 0; /* Enlever les marges par défaut */
+    position: absolute;
+    top: 10%; /* Positionne le texte un peu au-dessus du centre */
+  left: 5%; 
+  }
+
+  #btn {
+    background-color: #4b79a1;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    width: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute !important;
+    top: 49% !important;
+    left: 10% !important;
+  }
+  
+  #btn:hover {
+    background-color: #6bcbef;
+  }

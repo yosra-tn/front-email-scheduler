@@ -1,0 +1,100 @@
+/* tablePage.css */
+.content {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .table-container {
+    background: linear-gradient(145deg, #ffffff, #dfe9f3);
+    padding: 2rem;
+    max-width: 1000px;
+    width: 90%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin: 2rem auto;
+  }
+  
+  .button-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.button-actions .btn-warning,
+.button-actions .btn-danger {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+  
+  .button-actions .btn-warning {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  .button-actions .btn-warning:hover {
+    background-color: #e0a800;
+  }
+  
+  .button-actions .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .button-actions .btn-danger:hover {
+    background-color: #c82333;
+  }
+
+  .add-echeance-button {
+    background-color: #4cd09b; /* Couleur de fond attrayante */
+    color: white; /* Couleur du texte */
+    border: none; /* Supprime les bordures */
+    border-radius: 50%; /* Forme ronde */
+    width: 35px; /* Largeur */
+    height: 35px; /* Hauteur */
+    display: flex; /* Centrage du contenu */
+    align-items: center; /* Centrage vertical */
+    justify-content: center; /* Centrage horizontal */
+    font-size: 24px; /* Taille de police */
+    font-weight: bold; /* Gras pour un effet visible */
+    cursor: pointer; /* Curseur de la main */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère */
+    transition: background-color 0.3s ease, transform 0.2s; /* Effet de transition */
+    line-height: 1; /* Supprime l'espacement vertical interne */
+}
+
+.add-echeance-button:hover {
+    background-color: #43be89; /* Couleur légèrement plus foncée au survol */
+    transform: scale(1.1); /* Agrandissement léger au survol */
+}
+
+
+  
+/* tablePage.css */
+.content .table-container .add-button {
+    background-color: #4b79a1 !important; /* Utilisation de !important pour forcer le style */
+    color: white !important;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+    width: 300px; /* Fixe une largeur pour mieux centrer */
+    margin: 1rem auto; /* Centre le bouton horizontalement */
+    display: block; /* Définit l'élément comme un bloc pour permettre le centrage */
+    
+}
+
+  
+.content .table-container  .add-button:hover {
+    background-color: #6bcbef;
+  }
+  
